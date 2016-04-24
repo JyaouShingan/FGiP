@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A22A74F81CCB273C00BB9F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A74F71CCB273C00BB9F36 /* AppDelegate.swift */; };
-		A22A74FA1CCB273C00BB9F36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A74F91CCB273C00BB9F36 /* ViewController.swift */; };
 		A22A74FD1CCB273C00BB9F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22A74FB1CCB273C00BB9F36 /* Main.storyboard */; };
 		A22A74FF1CCB273C00BB9F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22A74FE1CCB273C00BB9F36 /* Assets.xcassets */; };
 		A22A75021CCB273C00BB9F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22A75001CCB273C00BB9F36 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,21 @@
 		A22A75271CCB2B1900BB9F36 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A75261CCB2B1900BB9F36 /* Serializer.swift */; };
 		A22A75291CCB2B2300BB9F36 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A75281CCB2B2300BB9F36 /* HttpManager.swift */; };
 		A22A752C1CCB2B5A00BB9F36 /* TrapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A752B1CCB2B5A00BB9F36 /* TrapInfo.swift */; };
+		A2DFD48B1CCB2E4C005156EF /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD48A1CCB2E4C005156EF /* LaunchViewController.swift */; };
+		A2DFD48F1CCB3A85005156EF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD48E1CCB3A85005156EF /* Utils.swift */; };
+		A2DFD4921CCB3D31005156EF /* VesselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4911CCB3D31005156EF /* VesselViewController.swift */; };
+		A2DFD4941CCB41B9005156EF /* PushFromRightSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4931CCB41B9005156EF /* PushFromRightSegue.swift */; };
+		A2DFD4961CCB446B005156EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DFD4951CCB446B005156EF /* MapKit.framework */; };
+		A2DFD49F1CCB647E005156EF /* FisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD49E1CCB647E005156EF /* FisherViewController.swift */; };
+		A2DFD4A11CCB7F41005156EF /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DFD4A01CCB7F41005156EF /* LoginView.xib */; };
+		A2DFD4A31CCB7F4A005156EF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4A21CCB7F4A005156EF /* LoginView.swift */; };
+		A2DFD4A51CCBA342005156EF /* AddTrapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DFD4A41CCBA342005156EF /* AddTrapView.xib */; };
+		A2DFD4A71CCBA34E005156EF /* AddTrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4A61CCBA34E005156EF /* AddTrapView.swift */; };
+		A2DFD4A91CCBE5D7005156EF /* TrapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4A81CCBE5D7005156EF /* TrapPoint.swift */; };
+		A2DFD4AB1CCBFC92005156EF /* PointController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4AA1CCBFC92005156EF /* PointController.swift */; };
+		A2DFD4AD1CCC519B005156EF /* UpdateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DFD4AC1CCC519B005156EF /* UpdateView.xib */; };
+		A2DFD4AF1CCC51A3005156EF /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4AE1CCC51A3005156EF /* UpdateView.swift */; };
+		A2DFD4B11CCC9507005156EF /* FGPinAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DFD4B01CCC9507005156EF /* FGPinAnnotationView.swift */; };
 		A5D5C687A9EBA55472EE7CF9 /* Pods_FGiP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49FD753DB34336166B438F0 /* Pods_FGiP.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +56,6 @@
 		62A8A660CED1FB1DAF999A56 /* Pods-FGiP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGiP.release.xcconfig"; path = "Pods/Target Support Files/Pods-FGiP/Pods-FGiP.release.xcconfig"; sourceTree = "<group>"; };
 		A22A74F41CCB273C00BB9F36 /* FGiP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGiP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22A74F71CCB273C00BB9F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A22A74F91CCB273C00BB9F36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A22A74FC1CCB273C00BB9F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A22A74FE1CCB273C00BB9F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22A75011CCB273C00BB9F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +69,21 @@
 		A22A75261CCB2B1900BB9F36 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
 		A22A75281CCB2B2300BB9F36 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
 		A22A752B1CCB2B5A00BB9F36 /* TrapInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrapInfo.swift; sourceTree = "<group>"; };
+		A2DFD48A1CCB2E4C005156EF /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		A2DFD48E1CCB3A85005156EF /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A2DFD4911CCB3D31005156EF /* VesselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VesselViewController.swift; sourceTree = "<group>"; };
+		A2DFD4931CCB41B9005156EF /* PushFromRightSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushFromRightSegue.swift; sourceTree = "<group>"; };
+		A2DFD4951CCB446B005156EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A2DFD49E1CCB647E005156EF /* FisherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FisherViewController.swift; sourceTree = "<group>"; };
+		A2DFD4A01CCB7F41005156EF /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		A2DFD4A21CCB7F4A005156EF /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A2DFD4A41CCBA342005156EF /* AddTrapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTrapView.xib; sourceTree = "<group>"; };
+		A2DFD4A61CCBA34E005156EF /* AddTrapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTrapView.swift; sourceTree = "<group>"; };
+		A2DFD4A81CCBE5D7005156EF /* TrapPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrapPoint.swift; sourceTree = "<group>"; };
+		A2DFD4AA1CCBFC92005156EF /* PointController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointController.swift; sourceTree = "<group>"; };
+		A2DFD4AC1CCC519B005156EF /* UpdateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateView.xib; sourceTree = "<group>"; };
+		A2DFD4AE1CCC51A3005156EF /* UpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
+		A2DFD4B01CCC9507005156EF /* FGPinAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGPinAnnotationView.swift; sourceTree = "<group>"; };
 		D49FD753DB34336166B438F0 /* Pods_FGiP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGiP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DFD4961CCB446B005156EF /* MapKit.framework in Frameworks */,
 				A5D5C687A9EBA55472EE7CF9 /* Pods_FGiP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +117,7 @@
 		8270DA86F7A9C0E54A24F56A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A2DFD4951CCB446B005156EF /* MapKit.framework */,
 				D49FD753DB34336166B438F0 /* Pods_FGiP.framework */,
 			);
 			name = Frameworks;
@@ -118,10 +148,11 @@
 		A22A74F61CCB273C00BB9F36 /* FGiP */ = {
 			isa = PBXGroup;
 			children = (
+				A2DFD4901CCB3BF3005156EF /* ViewController */,
+				A2DFD48D1CCB3A7C005156EF /* Utils */,
 				A22A752A1CCB2B4F00BB9F36 /* Model */,
 				A22A75251CCB2B0300BB9F36 /* Backend */,
 				A22A74F71CCB273C00BB9F36 /* AppDelegate.swift */,
-				A22A74F91CCB273C00BB9F36 /* ViewController.swift */,
 				A22A74FB1CCB273C00BB9F36 /* Main.storyboard */,
 				A22A74FE1CCB273C00BB9F36 /* Assets.xcassets */,
 				A22A75001CCB273C00BB9F36 /* LaunchScreen.storyboard */,
@@ -161,8 +192,36 @@
 			isa = PBXGroup;
 			children = (
 				A22A752B1CCB2B5A00BB9F36 /* TrapInfo.swift */,
+				A2DFD4AA1CCBFC92005156EF /* PointController.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A2DFD48D1CCB3A7C005156EF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A2DFD48E1CCB3A85005156EF /* Utils.swift */,
+				A2DFD4931CCB41B9005156EF /* PushFromRightSegue.swift */,
+				A2DFD4A81CCBE5D7005156EF /* TrapPoint.swift */,
+				A2DFD4B01CCC9507005156EF /* FGPinAnnotationView.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A2DFD4901CCB3BF3005156EF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2DFD48A1CCB2E4C005156EF /* LaunchViewController.swift */,
+				A2DFD4911CCB3D31005156EF /* VesselViewController.swift */,
+				A2DFD49E1CCB647E005156EF /* FisherViewController.swift */,
+				A2DFD4A01CCB7F41005156EF /* LoginView.xib */,
+				A2DFD4A21CCB7F4A005156EF /* LoginView.swift */,
+				A2DFD4A41CCBA342005156EF /* AddTrapView.xib */,
+				A2DFD4A61CCBA34E005156EF /* AddTrapView.swift */,
+				A2DFD4AC1CCC519B005156EF /* UpdateView.xib */,
+				A2DFD4AE1CCC51A3005156EF /* UpdateView.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		CFA1A516C7655D70C9284DC2 /* Pods */ = {
@@ -245,6 +304,7 @@
 				TargetAttributes = {
 					A22A74F31CCB273C00BB9F36 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 57U8RC5A9R;
 					};
 					A22A75071CCB273C00BB9F36 = {
 						CreatedOnToolsVersion = 7.3;
@@ -282,8 +342,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22A75021CCB273C00BB9F36 /* LaunchScreen.storyboard in Resources */,
+				A2DFD4A51CCBA342005156EF /* AddTrapView.xib in Resources */,
 				A22A74FF1CCB273C00BB9F36 /* Assets.xcassets in Resources */,
+				A2DFD4A11CCB7F41005156EF /* LoginView.xib in Resources */,
 				A22A74FD1CCB273C00BB9F36 /* Main.storyboard in Resources */,
+				A2DFD4AD1CCC519B005156EF /* UpdateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +419,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22A74FA1CCB273C00BB9F36 /* ViewController.swift in Sources */,
+				A2DFD4B11CCC9507005156EF /* FGPinAnnotationView.swift in Sources */,
+				A2DFD4A71CCBA34E005156EF /* AddTrapView.swift in Sources */,
+				A2DFD4921CCB3D31005156EF /* VesselViewController.swift in Sources */,
+				A2DFD4AB1CCBFC92005156EF /* PointController.swift in Sources */,
 				A22A752C1CCB2B5A00BB9F36 /* TrapInfo.swift in Sources */,
+				A2DFD4A91CCBE5D7005156EF /* TrapPoint.swift in Sources */,
+				A2DFD4AF1CCC51A3005156EF /* UpdateView.swift in Sources */,
+				A2DFD48B1CCB2E4C005156EF /* LaunchViewController.swift in Sources */,
+				A2DFD49F1CCB647E005156EF /* FisherViewController.swift in Sources */,
 				A22A75271CCB2B1900BB9F36 /* Serializer.swift in Sources */,
 				A22A74F81CCB273C00BB9F36 /* AppDelegate.swift in Sources */,
 				A22A75291CCB2B2300BB9F36 /* HttpManager.swift in Sources */,
+				A2DFD4941CCB41B9005156EF /* PushFromRightSegue.swift in Sources */,
+				A2DFD4A31CCB7F4A005156EF /* LoginView.swift in Sources */,
+				A2DFD48F1CCB3A85005156EF /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,10 +576,13 @@
 			baseConfigurationReference = 23575CE6B9F105AAAD0478EA /* Pods-FGiP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FGiP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coredevo.FGiP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -515,10 +591,13 @@
 			baseConfigurationReference = 62A8A660CED1FB1DAF999A56 /* Pods-FGiP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FGiP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coredevo.FGiP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

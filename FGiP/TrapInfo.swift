@@ -12,3 +12,4 @@ struct TrapInfo {
 	var id: String
 	var location: CLLocation
 }
+
